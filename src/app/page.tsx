@@ -1,7 +1,8 @@
-import Image from "next/image";
-
+import Submenu from "@/components/Submenu";
 export default function Home() {
   return (
-    <main></main>
+    <main>
+      <Submenu/>
+    </main>
   );
 }
